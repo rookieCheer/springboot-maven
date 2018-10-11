@@ -1,0 +1,7 @@
+这里的项目只是初次使用创建mavn的聚合项目
+
+达到的目的：在父项目（springboot）中引入依赖 在子项目（springboot01）中直接使用
+
+注意事项：在父项目pom文件中使用   节点<dependencyManagement></dependencyManagement>  这个是统一管理依赖版本的
+在子项目中还是需要显式 的引入jar
+只使用<dependencies></dependencies>的话在子项目中可以直接使用
